@@ -16,39 +16,8 @@ st.set_page_config(
     page_title="Centrum Air Flight Monitor (Powered by Diyorbek)",
     page_icon=get_logo_image(),
     layout="wide",
-    initial_sidebar_state="collapsed",
 )
 
-st.markdown("""
-<style>
-@media (max-width: 768px){
-  .block-container { padding: 0.6rem 0.7rem !important; }      
-  h1 { font-size: 1.35rem !important; }
-  h2 { font-size: 1.18rem !important; }
-  h3 { font-size: 1.06rem !important; }
-  p, li, label, .stMarkdown { font-size: 0.96rem !important; }
-
-  .stButton>button, .stDownloadButton>button { width: 100% !important; }
-
-  /* input/select 100% en */
-  div[data-baseweb="select"], .stTextInput, .stNumberInput, .stDateInput { width: 100% !important; }
-}
-
-
-@media (max-width: 768px){
-  [data-testid="column"]{ padding-left: .4rem; padding-right: .4rem; }
-}
-
-.table-wrap{ width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
-
-
-.table-wrap table{ width:100%; table-layout:fixed; border-collapse:separate; border-spacing:0; }
-.table-wrap th, .table-wrap td{ word-break:break-word; white-space:normal; }
-
-
-.table-wrap thead th{ position: sticky; top: 0; z-index: 1; }
-</style>
-""", unsafe_allow_html=True)
 
 LOGO_DATA_URI = get_logo_data_uri()
 
