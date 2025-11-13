@@ -13,7 +13,7 @@ from mock_data import pivot_table
 from utility import render_table_html
 
 st.set_page_config(
-    page_title="Centrum Air Flight Monitor (Powered by Diyorbek)",
+    page_title="Flight Monitor (Powered by Diyorbek)",
     page_icon=get_logo_image(),
     layout="wide",
 )
@@ -135,7 +135,7 @@ table thead th {{
 <div style="display:flex;justify-content:space-between;align-items:center;background:{COLOR_NAVY};color:#FFFFFF;padding:12px 16px;border-radius:12px;margin-bottom:10px;">
   <div style="display:flex;gap:12px;align-items:center;">
     <img src="{LOGO_DATA_URI}" style="height:40px;width:auto;border-radius:6px;object-fit:contain;" />
-    <h1 class="app-title">Centrum Air — Ground Handling Tasks (Powered by Diyorbek)</h1>
+    <h1 class="app-title">Ground Handling Tasks (Powered by Diyorbek)</h1>
   </div>
   <div class="app-time"><span id="local-clock"></span></div>
 </div>
